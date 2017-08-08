@@ -1,0 +1,1 @@
+2017/08/04 16:37:19 [error] 1363#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: data-analysis.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "data-analysis.com"

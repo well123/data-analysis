@@ -53,7 +53,7 @@ $results = Capsule::select('select * from users where id = ?', array(1));
 ```PHP
 Capsule::schema()->create('users', function ($table) {
     $table->increments('id');
-    $table->string('email')->unique();
+    $table->string('email',255)->unique();
     $table->timestamps();
 });
 ```
