@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/index',function (){
+    return view('weixin');
+});
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
